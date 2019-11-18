@@ -7,6 +7,6 @@ def fib(n):
     a,b = 1,1
     for i in range(n-1):
         a,b = b,a+b
-    return a * 2
+    return a
 
-print('第10个月兔子总数是%d只' % (fib(10))*2)
+print('第10个月兔子总数是%d只' % (fib(10)*2))
