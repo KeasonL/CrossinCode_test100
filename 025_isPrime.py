@@ -4,7 +4,9 @@
 # 参考了质数的规律判断法，质数与6相邻
 from math import sqrt
 def isPrime(n):
-    if n in [1, 2, 3]:
+    if n == 1:
+        return False
+    if n in [2, 3]:
         return True
     if n % 6 != 1 and n % 6 !=5:
         return False
