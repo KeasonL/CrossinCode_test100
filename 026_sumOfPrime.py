@@ -2,7 +2,9 @@
 # 延续上一题的算法
 from math import sqrt
 def isPrime(n):
-    if n in [1, 2, 3]:
+    if n == 1:
+        return False
+    if n in [2, 3]:
         return True
     if n % 6 != 1 and n % 6 !=5:
         return False
