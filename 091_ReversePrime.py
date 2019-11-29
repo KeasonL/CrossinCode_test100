@@ -15,7 +15,7 @@ def isPrime(n):
     return True
 
 lst1 = []
-for i in range(10,901):
+for i in range(1,901):
     if isPrime(i):
         lst1.append(i)
 lst2 = []
